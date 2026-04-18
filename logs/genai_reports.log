@@ -1,0 +1,80 @@
+2026-04-18 11:09:20,631 - genai_reports.pdf_generator - ERROR - reportlab not installed. Install with: pip install reportlab
+2026-04-18 11:09:20,631 - __main__ - ERROR - Fatal error: No module named 'reportlab'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\main.py", line 192, in main
+    report_gen = ReportGenerator()
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\main.py", line 47, in __init__
+    self.pdf_generator = PDFReportGenerator(Config.REPORTS_DIR)
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\genai_reports\pdf_generator.py", line 21, in __init__
+    self._init_pdf_library()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\genai_reports\pdf_generator.py", line 26, in _init_pdf_library
+    from reportlab.lib import colors
+ModuleNotFoundError: No module named 'reportlab'
+2026-04-18 11:09:25,985 - genai_reports.pdf_generator - ERROR - reportlab not installed. Install with: pip install reportlab
+2026-04-18 11:09:25,985 - __main__ - ERROR - Fatal error: No module named 'reportlab'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\main.py", line 192, in main
+    report_gen = ReportGenerator()
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\main.py", line 47, in __init__
+    self.pdf_generator = PDFReportGenerator(Config.REPORTS_DIR)
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\genai_reports\pdf_generator.py", line 21, in __init__
+    self._init_pdf_library()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\genai_reports\pdf_generator.py", line 26, in _init_pdf_library
+    from reportlab.lib import colors
+ModuleNotFoundError: No module named 'reportlab'
+2026-04-18 11:11:11,370 - genai_reports.pdf_generator - ERROR - reportlab not installed. Install with: pip install reportlab
+2026-04-18 11:11:11,370 - __main__ - ERROR - Fatal error: No module named 'reportlab'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\main.py", line 192, in main
+    report_gen = ReportGenerator()
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\main.py", line 47, in __init__
+    self.pdf_generator = PDFReportGenerator(Config.REPORTS_DIR)
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\genai_reports\pdf_generator.py", line 21, in __init__
+    self._init_pdf_library()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\genai_reports\pdf_generator.py", line 26, in _init_pdf_library
+    from reportlab.lib import colors
+ModuleNotFoundError: No module named 'reportlab'
+2026-04-18 11:11:18,740 - genai_reports.pdf_generator - ERROR - reportlab not installed. Install with: pip install reportlab
+2026-04-18 11:11:18,740 - __main__ - ERROR - Fatal error: No module named 'reportlab'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\main.py", line 192, in main
+    report_gen = ReportGenerator()
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\main.py", line 47, in __init__
+    self.pdf_generator = PDFReportGenerator(Config.REPORTS_DIR)
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\genai_reports\pdf_generator.py", line 21, in __init__
+    self._init_pdf_library()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\genai_reports\pdf_generator.py", line 26, in _init_pdf_library
+    from reportlab.lib import colors
+ModuleNotFoundError: No module named 'reportlab'
+2026-04-18 11:16:49,596 - genai_reports.pdf_generator - INFO - reportlab library loaded successfully
+2026-04-18 11:16:49,597 - genai_reports.llm_analyzer - WARNING - OpenAI API key not provided. Using mock analyzer.
+2026-04-18 11:16:49,615 - __main__ - INFO - Starting weekly report generation...
+2026-04-18 11:16:49,616 - __main__ - INFO - Loading receipt data...
+2026-04-18 11:16:49,663 - genai_reports.data_loader - INFO - Found 626 receipt files
+2026-04-18 11:16:50,910 - __main__ - INFO - Loaded 626 receipt records
+2026-04-18 11:16:50,911 - __main__ - INFO - Generating statistics...
+2026-04-18 11:16:50,918 - __main__ - INFO - Statistics generated successfully
+2026-04-18 11:16:50,918 - __main__ - INFO - Generating AI analysis...
+2026-04-18 11:16:50,919 - __main__ - INFO - AI analysis completed
+2026-04-18 11:16:50,919 - __main__ - INFO - Creating PDF report...
+2026-04-18 11:16:50,945 - genai_reports.pdf_generator - INFO - PDF report generated: C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\generated_reports\weekly_report_20260418_111650.pdf
+2026-04-18 11:16:50,946 - __main__ - INFO - Report generated successfully: C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\generated_reports\weekly_report_20260418_111650.pdf
+2026-04-18 11:16:50,958 - __main__ - INFO - Starting monthly report generation...
+2026-04-18 11:16:50,959 - __main__ - INFO - Loading receipt data...
+2026-04-18 11:16:50,963 - genai_reports.data_loader - INFO - Found 626 receipt files
+2026-04-18 11:16:51,258 - __main__ - INFO - Loaded 626 receipt records
+2026-04-18 11:16:51,259 - __main__ - INFO - Generating statistics...
+2026-04-18 11:16:51,264 - __main__ - INFO - Statistics generated successfully
+2026-04-18 11:16:51,265 - __main__ - INFO - Generating AI analysis...
+2026-04-18 11:16:51,265 - __main__ - INFO - AI analysis completed
+2026-04-18 11:16:51,265 - __main__ - INFO - Creating PDF report...
+2026-04-18 11:16:51,300 - genai_reports.pdf_generator - INFO - PDF report generated: C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\generated_reports\monthly_report_20260418_111651.pdf
+2026-04-18 11:16:51,300 - __main__ - INFO - Report generated successfully: C:\Users\HP\OneDrive\Desktop\GENAIPROJECT\generated_reports\monthly_report_20260418_111651.pdf
